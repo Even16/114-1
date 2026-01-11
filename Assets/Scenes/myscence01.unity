@@ -60474,7 +60474,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36078ab0369161e49a29d349ae3e0739, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 36078ab0369161e49a29d349ae3e0739, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 36078ab0369161e49a29d349ae3e0739, type: 3}
       propertyPath: m_Avatar
@@ -182759,11 +182763,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4416926081852918481, guid: 0ebf95b58fdc5c5468869ca3dedc79ec, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4416926081852918481, guid: 0ebf95b58fdc5c5468869ca3dedc79ec, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6023767776643751494, guid: 0ebf95b58fdc5c5468869ca3dedc79ec, type: 3}
       propertyPath: m_Speed
@@ -241058,6 +241062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ch46_nonPBR
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 310efdcac0058c945ba0f98ad7ef75a9, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1092408308860062549, guid: 310efdcac0058c945ba0f98ad7ef75a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.000026339652
@@ -285035,6 +285043,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2116631891}
+  - component: {fileID: 2116631892}
   m_Layer: 0
   m_Name: target
   m_TagString: Untagged
@@ -285057,6 +285066,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1147385989}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2116631892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116631890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 393807d0f6115364f8a7b75988bc3035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "\u6700\u9577\u8DDD\u96E2": 5
+  "\u73A9\u5BB6": {fileID: 0}
+  "\u539F\u59CB\u7784\u6E96\u9EDE": {x: 0.027, y: 2.65, z: 1.47}
 --- !u!1001 &2117005881
 PrefabInstance:
   m_ObjectHideFlags: 0
